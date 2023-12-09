@@ -18,7 +18,7 @@ from langchain.callbacks import get_openai_callback
 def main():
     load_dotenv()
     st.set_page_config(page_title="Chat With files")
-    st.header("ChatPDF developed by [@Sabber_dev](https://x.com/sabber_dev)")
+    st.header("ChatPDF developed by [@PratyushMishra](https://pratyush.com/)")
 
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
